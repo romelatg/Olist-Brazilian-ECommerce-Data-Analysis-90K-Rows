@@ -6,6 +6,9 @@ End-to-end ETL data analysis project using Python, SQL Server, and Power BI on t
 End-to-end data analysis project using Python, SQL Server, and Power BI on the Olist Brazilian E-Commerce dataset. Covers multi-table data cleaning, feature engineering, business queries with JOINs, and an interactive dashboard.
 
 ---
+## Dashboard Preview
+
+![Dashboard](OlistDataAnalysis/Images/Power_BI_DashboardPNG.png)
 
 ## Tools Used
 
@@ -168,12 +171,6 @@ ORDER BY AVG(delivery_days) ASC
 
 ---
 
-## Dashboard Preview
-
-![Dashboard](images/dashboard_preview.png)
-
----
-
 ## Repository Structure
 
 ```
@@ -208,3 +205,8 @@ Olist_Data_Analysis/
 > The Power BI file connects to a local SQL Server instance (`OlistDB`).
 > To use it locally, import the CSV files from the `/data` folder into your own
 > SQL Server instance, or connect Power BI directly to the CSV files.
+> Raw data not included due to file size. 
+Download from: [Kaggle — Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+## Power BI Dashboard
+The `.pbix` file is not included due to file size.
+A PDF export of the dashboard is available in the `/powerbi` folder.
